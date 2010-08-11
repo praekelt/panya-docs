@@ -1,20 +1,51 @@
-.. Panya documentation master file, created by
-   sphinx-quickstart on Wed Aug 11 08:44:04 2010.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
 Welcome to Panya's documentation!
 =================================
 
-Contents:
+Panya is a set of Django applications that aims to make your life even easier than it already is. It means “blink” in seSotho. Panya makes rich portal development a breeze.    
 
+Contents
+--------
 .. toctree::
-   :maxdepth: 2
+    :maxdepth: 1
 
-Indices and tables
-==================
+    apps_overview.rst
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+Quick Start
+-----------
+Panya provides a Paste template which you can use to create a self contained Django instance with relevant project and Panya app settings preconfigured.
 
+In order to use the Paste template you need to install Paste and the Panya specifc templates::
+    
+    $ sudo easy_install paste
+    $ sudo easy_install panya-paste
+
+Once the Paste templates have been installed, create your project by running::
+    
+    $ paster create -t panya_project
+
+Provide a project name and follow the prompts.
+
+The Paste process will create a Buildout environment for you. *Buildout provides tools for assembling applications from multiple parts, Python or otherwise*. In Panya's case Buildout is used to create a self contained Django environment with all the relevant Panya apps installed and configured, as well as initialising a Django project.
+
+To initialise the Buildout environment::
+    
+    $ cd <project_name>
+    $ python bootstrap.py
+    $ ./bin/buildout
+
+After the Buildout process completes you can start your Django instance by running::
+    
+    $ ./bin/<project_name> runserver
+    
+The ``bin/<project_name>`` script acts as Django's normal ``manage.py`` script.
+
+Bug tracker
+-----------
+
+If you spot any bugs or have feature suggestions, please report them to our issue tracker at https://praekelt.lighthouseapp.com/projects/55837-panya/overview. Alternatively use the GitHub issue tracker for each respective app. 
+
+
+License
+-------
+
+Panya and its constituent apps are licensed under the BSD License. See the LICENSE file in the top distribution directory of each package for the full license text.
