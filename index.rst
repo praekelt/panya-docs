@@ -9,6 +9,9 @@ Contents
     :maxdepth: 1
 
     apps_overview.rst
+    managers.rst
+    models.rst
+    settings.rst
 
 Quick Start
 -----------
