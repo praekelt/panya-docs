@@ -264,6 +264,17 @@ title
 
 A short descriptive title. 
 
+.. _models-panya-modelbase-managers:
+
+managers
+~~~~~~~~
+
+.. _models-panya-modelbase-managers-permitted:
+
+permitted
+*********
+Returns a queryset containing only permitted objects, see the :ref:`PermittedManager <managers-panya-permitted>`.
+
 .. _models-panya-modelbase-methods:
 
 methods

@@ -8,11 +8,13 @@ Contents
 .. toctree::
     :maxdepth: 1
 
-    apps_overview.rst
+    app_overview.rst
+    inclusion_tags.rst
     managers.rst
     models.rst
     settings.rst
     template_context_processors.rst
+    template_tags.rst
 
 Quick Start
 -----------

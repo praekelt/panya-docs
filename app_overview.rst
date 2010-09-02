@@ -1,7 +1,12 @@
-Apps Overview
-=============
+.. _app_overview:
+
+App Overview
+============
 
 Panya is made up of a collection of standalone Django applications. The panya app(see below) provides additional CMS and view related functionality required by some apps, hence the panya-___ designations. 
+
+.. contents:: Contents
+    :depth: 5
 
 django-ckeditor
 ---------------
