@@ -12,6 +12,7 @@ Contents
     managers.rst
     models.rst
     settings.rst
+    template_context_processors.rst
 
 Quick Start
 -----------
@@ -47,8 +48,8 @@ Support
 
 Ask questions on our :ref:`forum/mailing list <forum>`, or chat now with fellow Panya users in the `#panya IRC channel on irc.freenode.net <irc://irc.freenode.net/panya>`_.
 
-Bug Tracker
------------
+Issue Tracker
+-------------
 
 If you spot any bugs or have feature suggestions, please report them to our `issue tracker <https://praekelt.lighthouseapp.com/projects/55837-panya/overview>`_. Alternatively use the GitHub issue tracker for each respective app. 
 
