@@ -67,7 +67,7 @@ A view has been defined that passes a collection of books to a template in a tem
 
 View code::
 
-    def books(context):
+    def books(request):
         objects = Books.objects.all()
         return render_to_response('books.html', {'object_list': objects}) 
 
