@@ -17,6 +17,13 @@ The following tags are contained in ``panya.templatetags.panya_inclusion_tags``.
 
 To activate them use ``{% load panya_inclusion_tags %}`` in your template.
 
+
+.. TODO: content_list_gizmo
+.. TODO: modelbase_listing
+.. TODO: object_comments
+.. TODO: object_header
+.. TODO: view_modifier
+
 .. _inclusion-tags-panya-pager:
 
 pager
