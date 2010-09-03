@@ -1,5 +1,7 @@
 .. _class-based-generic-views:
 
+.. TODO: view modifiers
+
 Class Based Generic Views
 =========================
 
