@@ -3,9 +3,6 @@ Welcome to Panya's documentation!
 
 Panya is a set of Django applications that aims to make your life even easier than it already is. It means “blink” in seSotho. Panya makes rich portal development a breeze.    
 
-.. contents:: Contents
-    :depth: 2
-
 Quick Start
 -----------
 Panya provides a Paste template which you can use to create a self contained Django instance with relevant project and Panya app settings preconfigured.
