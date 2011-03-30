@@ -105,6 +105,19 @@ Or clone from GitHub::
     
     git clone http://github.com/praekelt/django-likes.git
 
+django-order
+~~~~~~~~~~~~
+
+Django app allowing users to manually order objects via admin.
+
+Install from PyPI::
+    
+    easy_install django-order
+
+Or clone from GitHub::
+    
+    git clone http://github.com/praekelt/django-order.git
+
 django-preferences
 ~~~~~~~~~~~~~~~~~~
 
